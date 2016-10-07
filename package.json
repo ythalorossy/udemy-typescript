@@ -1,0 +1,26 @@
+{
+  "name": "typescript-complete-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.0.2",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "build": "webpack -d --watch",
+    "build:prod": "webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "ts-loader": "^0.8.2"
+  }
+}
